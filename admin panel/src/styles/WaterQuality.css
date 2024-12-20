@@ -1,0 +1,54 @@
+.water-quality {
+  margin-left: 250px;
+  padding: 20px;
+}
+
+.real-time, .historical{
+  margin-bottom: 30px;
+}
+
+.parameter-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 150px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.charts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.charts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.chart {
+  width: 400px; /* Fix the width */
+  height: 250px; /* Fix the height */
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .chart {
+    width: 100%; /* Full width on smaller screens */
+    height: 300px; /* Adjust height for smaller screens */
+  }
+}
+

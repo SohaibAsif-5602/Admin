@@ -1,0 +1,25 @@
+.dashboard {
+  margin-left: 250px;
+  padding: 20px;
+}
+
+.chart-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 20px; /* Adds spacing between rows */
+}
+
+.chart {
+  flex: 1;
+  max-width: 60%; /* Adjusted to ensure the charts fit nicely side by side */
+  background: #ffffff; /* Optional: White background for a cleaner look */
+  padding: 15px; /* Adds padding inside the chart container */
+  border-radius: 8px; /* Adds rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow for better visuals */
+}
+
+h2 {
+  text-align: center; /* Centers the chart titles */
+  margin-bottom: 10px; /* Adds space below titles */
+}

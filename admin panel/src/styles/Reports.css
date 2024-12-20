@@ -1,0 +1,37 @@
+.report-page {
+  margin-left: 250px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.report-page h1 {
+  text-align: center;
+  color: #333;
+}
+
+.report-type-selector {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.report-type-selector label {
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

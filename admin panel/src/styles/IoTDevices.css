@@ -1,0 +1,158 @@
+.iot-devices {
+    margin-left: 250px;
+    padding: 20px;
+    background: #f9f9f9;
+  }
+  
+  .overview {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .device-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .device-table th,
+  .device-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .device-table th {
+    background: #007bff;
+    color: white;
+  }
+  
+  .status.online {
+    color: green;
+  }
+  
+  .status.offline {
+    color: red;
+  }
+  
+  button {
+    margin-right: 10px;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px; /* Rounded corners */
+    width: 400px; /* Set a fixed width */
+    max-width: 90%; /* Ensure it’s responsive */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Deeper shadow for elevation */
+    z-index: 1000; /* Ensure it’s above everything else */
+    animation: fadeIn 0.3s ease-in-out; /* Add fade-in effect */
+  }
+  
+  .modal h2 {
+    margin-top: 0;
+    color: #333;
+    font-size: 1.5rem;
+    text-align: center;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+  }
+  
+  .modal form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Add spacing between inputs */
+  }
+  
+  .modal input,
+  .modal select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .modal button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .modal button:hover {
+    background-color: #0056b3;
+  }
+  
+  .modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    color: #333;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .modal-close:hover {
+    color: #007bff;
+  }
+
+  .status.online {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .status.offline {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .device-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .device-table th,
+  .device-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .device-table th {
+    background: #007bff;
+    color: white;
+  }
+  
+  .device-table tbody tr:nth-child(even) {
+    background: #f9f9f9;
+  }
+  
+  
+  /* Fade-in animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translate(-50%, -60%);
+    }
+    to {
+      opacity: 1;
+      transform: translate(-50%, -50%);
+    }
+  }
+  
+  

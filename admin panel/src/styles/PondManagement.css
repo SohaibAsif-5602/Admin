@@ -1,0 +1,105 @@
+/* User Management Container */
+.pond-management {
+  margin-left: 250px;
+  padding: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f9; /* Light background for contrast */
+  min-height: 100vh; /* Ensure it covers full height */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* Header Styling */
+.pond-management h1 {
+  margin: 0 auto;
+  text-align: center;
+  color: #343a40; /* Darker text for better readability */
+  font-size: 2rem;
+  font-weight: 600;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #007bff; /* Adds an underline effect */
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+  background-color: #ffffff; /* White background for table */
+  border-radius: 10px; /* Rounded corners */
+  overflow: hidden; /* For rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+thead {
+  background-color: #007bff;
+  color: white;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-size: 0.9rem;
+}
+
+th {
+  font-weight: bold;
+  text-transform: uppercase; /* Adds a professional touch */
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9; /* Alternate row color */
+}
+
+tbody tr:hover {
+  background-color: #f1f1f1; /* Row hover effect */
+}
+
+/* Button Styling */
+.approve-button {
+  margin-bottom: 5px;
+  padding: 12px 12px 12px 12px;
+  font-size: 0.9rem;
+  color: white;
+  background-color: #28a745;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease; /* Smooth hover animation */
+}
+
+.approve-button:hover {
+  background-color: #218838;
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.delete-button {
+  background-color: red;
+}
+.delete-button:hover {
+  background-color: #ff0000;
+  transform: scale(1.05); /* Slightly enlarge on hover */
+  transition: all 0.3s ease; /* Smooth hover animation */
+}
+
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .user-management {
+    margin: 0;
+    padding: 15px;
+  }
+
+  table {
+    font-size: 0.8rem;
+  }
+
+  th, td {
+    padding: 10px;
+  }
+
+  button {
+    padding: 5px 10px;
+    font-size: 0.8rem;
+  }
+}

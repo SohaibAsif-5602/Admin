@@ -1,0 +1,30 @@
+.alerts {
+  margin-left: 250px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.alerts h1 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.alerts ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.alerts li {
+  margin: 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}

@@ -1,0 +1,36 @@
+nav {
+  display: flex;
+  background: #007bff;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffc107;
+}
+
+nav a:last-child {
+  margin-right: 0;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.content {
+  margin-left: 20px; /* Adds space for the sidebar width */
+  padding: 20px;
+  width: calc(100% - 250px); /* Ensures content takes up the remaining space */
+  background-color: #f4f4f4;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
