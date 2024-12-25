@@ -1,0 +1,130 @@
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.left-section {
+  background-color: navy;
+  color: white;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.right-section {
+  flex: 1;
+  background-color: white;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-form {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.login-title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.logo {
+  width: 700px;
+  height: 100px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #ccc;
+}
+
+.input-wrapper .icon {
+  font-size: 1.2rem;
+  margin-right: 10px;
+  color: #333;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.form-group input:focus {
+  border-bottom-color: navy;
+}
+
+.redirect-text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.redirect-text a {
+  color: navy;
+  text-decoration: none;
+}
+
+.redirect-text a:hover {
+  text-decoration: underline;
+}
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  color: white;
+  background: linear-gradient(90deg, #1e3c72, #2a5298, #3b5998, #4a90e2);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.login-button:hover {
+  background: linear-gradient(90deg, #2a5298, #1e3c72, #4a90e2, #3b5998);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .left-section {
+    height: 40vh;
+    padding: 10px;
+  }
+
+  .right-section {
+    height: 60vh;
+    padding: 20px;
+  }
+
+  .login-form {
+    padding: 10px;
+  }
+}
